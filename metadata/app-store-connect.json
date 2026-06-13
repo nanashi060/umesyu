@@ -1,0 +1,161 @@
+{
+  "appName": {
+    "ja": "梅酒ノート",
+    "en-US": "Umeshu Notes"
+  },
+  "bundleId": "com.yojiaoki.umesyu",
+  "appleAppId": "6779993369",
+  "sku": "umesyu-2026",
+  "intendedTeamName": "うさぎ開発",
+  "appleDeveloperTeamId": "NM25VYJHAR",
+  "easProject": {
+    "fullName": "@youchan6565/umesyu",
+    "projectId": "24ddeda0-f5f5-4dd5-99da-e9bed8e16f4d"
+  },
+  "category": {
+    "primary": "Food & Drink",
+    "secondary": "Lifestyle"
+  },
+  "copyright": "© 2026 うさぎ開発",
+  "supportUrl": "https://github.com/nanashi060/umesyu/issues",
+  "marketingUrl": null,
+  "privacyPolicyUrl": "https://github.com/nanashi060/umesyu/blob/main/PRIVACY_POLICY.md",
+  "githubRepository": {
+    "owner": "nanashi060",
+    "name": "umesyu",
+    "url": "https://github.com/nanashi060/umesyu",
+    "visibility": "public"
+  },
+  "localizations": {
+    "ja": {
+      "subtitle": "梅仕事の熟成リマインダー",
+      "promotionalText": "梅酒づくりの仕込み日、味見、瓶詰めのタイミングを忘れず管理。ティップスと熟成タイムラインで、今年の梅仕事を落ち着いて記録できます。",
+      "description": "梅酒ノートは、自家製梅酒の仕込みから熟成までを端末内に記録できるアプリです。\n\n仕込み日、梅・氷砂糖・酒の量、味見メモ、写真をまとめて保存し、飲み頃や次の確認日をローカル通知で思い出せます。梅酒づくりのティップスも収録しているので、毎年の梅仕事を落ち着いて振り返れます。\n\n主な機能\n・仕込み記録: 日付、材料、メモ、写真を保存\n・熟成タイムライン: 仕込み後の日数と次の目安を確認\n・リマインダー: 通知許可時のみローカル通知を予約\n・ティップス: 保存瓶、氷砂糖、熟成、保管の基本を確認\n・共有: 個人情報を含めない定型文で成果を共有\n\nアカウント作成は不要です。データは端末内に保存され、外部サーバー同期は使いません。\n\n20歳未満の飲酒は法律で禁止されています。本アプリは記録補助を目的としたもので、飲酒や酒類製造を推奨するものではありません。",
+      "keywords": "梅酒,梅仕事,果実酒,リマインダー,熟成,保存瓶,氷砂糖,手作り,記録,通知",
+      "whatsNew": "初回MVP: 仕込みリマインダー、ティップス、熟成タイムラインを追加しました。"
+    },
+    "en-US": {
+      "subtitle": "Batch reminders for umeshu",
+      "promotionalText": "Track homemade umeshu batches, tasting dates, and bottling timing with local reminders, practical tips, and an aging timeline.",
+      "description": "Umeshu Notes helps you keep local records for homemade umeshu batches from preparation through aging.\n\nSave batch dates, plum, sugar, and liquor amounts, tasting notes, and optional photos. Local reminders can help you remember tasting windows and next check dates, while built-in tips keep the basics close at hand.\n\nKey features\n- Batch records: save dates, ingredient amounts, notes, and photos\n- Aging timeline: check days since preparation and suggested next steps\n- Reminders: schedule local notifications only when permission is granted\n- Tips: review basics for jars, rock sugar, aging, and storage\n- Sharing: use a preset message that avoids personal details\n\nNo account is required. Data is stored on the device and is not synced to an external server.\n\nAlcohol laws vary by region. This app is for record keeping and does not encourage alcohol consumption or production.",
+      "keywords": "umeshu,plum wine,homemade,reminder,batch,aging,notes,japanese plum,recipe,tips",
+      "whatsNew": "Initial MVP: added batch reminders, tips, and aging timelines."
+    }
+  },
+  "ageRatingNotes": "The app is about alcoholic beverage record keeping. Complete App Store Connect age rating truthfully for alcohol references and do not position the app for children.",
+  "entryStatus": {
+    "lastCheckedAt": "2026-06-14",
+    "appStoreConnectUrl": "https://appstoreconnect.apple.com/apps/6779993369/distribution/ios/version/inflight",
+    "enteredInAppStoreConnect": {
+      "jaVersionPage": [
+        "promotionalText",
+        "description",
+        "keywords",
+        "copyright",
+        "reviewNotes",
+        "signInNotRequired",
+        "manualRelease",
+        "supportUrl",
+        "screenshots"
+      ],
+      "appInfoPage": [
+        "subtitle",
+        "primaryCategory",
+        "secondaryCategory",
+        "privacyPolicyUrl",
+        "ageRating",
+        "contentRights"
+      ],
+      "pricing": [
+        "freePriceSchedule"
+      ]
+    },
+    "verifiedAfterReload": {
+      "jaVersionPage": true,
+      "appInfoPage": true
+    },
+    "notEntered": [
+      "marketingUrl",
+      "reviewContactFirstName",
+      "reviewContactLastName",
+      "reviewContactPhone",
+      "reviewContactEmail",
+      "build",
+      "appAvailability",
+      "appPrivacyAnswers"
+    ],
+    "appStoreVersionId": "8dd6246f-d332-421e-98b5-9ef9fa0abbd9",
+    "jaVersionLocalizationId": "a8f862eb-883e-4307-abfc-f2b0f2fd2046",
+    "appInfoId": "c5f60dd9-f336-4695-8a2e-ddea09b75334",
+    "appInfoLocalizationId": "93d8d788-52c8-4e6e-9cf3-bc6e5394b84b",
+    "reviewDetailId": "c2ceab87-e1ba-4755-8aa1-072151f9d983",
+    "contentRightsDeclaration": "DOES_NOT_USE_THIRD_PARTY_CONTENT",
+    "ageRating": {
+      "alcoholTobaccoOrDrugUseOrReferences": "FREQUENT_OR_INTENSE",
+      "allOtherContentCategories": "NONE_OR_FALSE"
+    },
+    "pricing": {
+      "baseTerritory": "JPN",
+      "customerPrice": "0",
+      "priceScheduleCreated": true,
+      "availabilityCreated": false
+    },
+    "screenshots": {
+      "deviceType": "IPHONE_65",
+      "setId": "858e4a4c-4a14-42d1-89dc-6cdd4fe28ee2",
+      "assets": [
+        {
+          "fileName": "01-home.png",
+          "assetId": "df200d0e-92ee-4508-a103-cdbe4b995c7b"
+        },
+        {
+          "fileName": "02-batches.png",
+          "assetId": "89fba0e5-6032-4a3f-896b-71811ce8e35d"
+        },
+        {
+          "fileName": "03-tips.png",
+          "assetId": "55cd0d48-c155-4e2e-9802-19182d6c89f6"
+        }
+      ]
+    },
+    "latestAscValidate": {
+      "errors": 6,
+      "warnings": 0,
+      "blocking": [
+        "review contact first name",
+        "review contact last name",
+        "review contact email",
+        "review contact phone",
+        "build attachment",
+        "app availability"
+      ]
+    },
+    "notes": [
+      "App info page showed a generic App Store Connect error alert after save, but subtitle and categories remained after reload.",
+      "App icon is not uploaded separately in this flow; it will be included in the next iOS build from assets/images/icon.png.",
+      "App Privacy answers still need Chrome/App Store Connect UI verification; MVP design indicates no data is collected off-device.",
+      "EAS non-interactive iOS build incremented remote buildNumber from 2 to 3, then stopped because iOS credentials are not set up for non-interactive builds."
+    ]
+  },
+  "iconAssets": {
+    "source": "assets/generated/umeshu-icon-source.svg",
+    "generator": "scripts/generate-app-icons.mjs",
+    "outputs": [
+      "assets/images/icon.png",
+      "assets/images/splash-icon.png",
+      "assets/images/favicon.png",
+      "assets/images/android-icon-foreground.png",
+      "assets/images/android-icon-background.png",
+      "assets/images/android-icon-monochrome.png"
+    ],
+    "concept": "No-text umeshu jar with green plums on a plum-colored background."
+  },
+  "reviewNotes": {
+    "ja": "アカウント不要。梅酒の仕込み、熟成リマインダー、ティップスをローカル保存で提供します。広告・課金は未設定時に表示されません。",
+    "en-US": "No demo account required. The app provides local-first homemade umeshu batch reminders, aging notes, and tips. Ads and purchases are hidden when unconfigured."
+  },
+  "releaseNotes": {
+    "ja": "初回MVP: 仕込みリマインダー、ティップス、熟成タイムラインを追加しました。",
+    "en-US": "Initial MVP: added batch reminders, tips, and aging timelines."
+  }
+}

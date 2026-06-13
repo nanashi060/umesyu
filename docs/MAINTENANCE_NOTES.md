@@ -1,0 +1,19 @@
+# Maintenance Notes
+
+- 2026-06-13: Project generated from Expo SDK 56 `default@sdk-56`. Parent home directory appears to be a Git repository, so avoid repository-wide Git operations from this project folder unless confirmed.
+- 2026-06-13: Account-backed SDK setup is documented but intentionally no-op in code until real app IDs, API keys, offerings, and review metadata are ready.
+- 2026-06-13: Expo SQLite Web failed to resolve `wa-sqlite.wasm` until `metro.config.js` added `wasm` asset support and COEP/COOP headers, matching Expo SQLite web setup docs.
+- 2026-06-14: Chrome App Store Connect automation was blocked by another Chrome extension UI. User must close that UI before continuing Chrome automation.
+- 2026-06-14: `expo config` showed Android `RECORD_AUDIO` from native plugin defaults; blocked it because MVP uses photo library selection only and does not record audio.
+- 2026-06-14: Created and linked EAS project `@youchan6565/umesyu` (`24ddeda0-f5f5-4dd5-99da-e9bed8e16f4d`).
+- 2026-06-14: App Store Connect Chrome tabs are at `authResult=FAILED`; user needs to complete Apple ID login/2FA in Chrome before app creation or build upload can continue.
+- 2026-06-14: Registered Apple Developer Bundle ID `com.yojiaoki.umesyu` and created App Store Connect app `梅酒ノート` with Apple App ID `6779993369`.
+- 2026-06-14: First non-interactive EAS iOS build stopped because `ITSAppUsesNonExemptEncryption` was missing and iOS credentials require interactive validation.
+- 2026-06-14: App icon assets are generated from `assets/generated/umeshu-icon-source.svg`; run `npm run icons:generate` after editing the SVG/script.
+- 2026-06-14: App Store support URL and privacy policy URL are still unset. Do not submit or invent placeholder URLs until the user provides public pages.
+- 2026-06-14: App Store Connect app info save showed a generic error alert, but subtitle and category values remained after reload. Recheck before final submission.
+- 2026-06-14: App Review contact details, screenshots, build upload, age rating, and App Privacy answers are still incomplete.
+- 2026-06-14: Chrome extension communication failed after one retry while trying to continue App Store Connect UI work. App Privacy and availability initialization still need Chrome/UI work.
+- 2026-06-14: `greenlight` could not be installed because local Command Line Tools do not support macOS 26; update CLT to Xcode 26.3 tools before running Greenlight.
+- 2026-06-14: `asc validate` now reports only review contact fields, build attachment, and app availability as blocking. App Privacy is not covered by this validate output and still needs manual verification.
+- 2026-06-14: EAS non-interactive iOS build incremented remote buildNumber from 2 to 3, then stopped because remote iOS credentials are not configured for non-interactive builds.

@@ -1,0 +1,9 @@
+{
+  "locales": ["ja", "en-US"],
+  "screens": ["/", "/batches", "/tips", "/settings"],
+  "disableAds": true,
+  "disableAnalytics": true,
+  "disableReviewPrompt": true,
+  "disablePaywall": true
+}
+

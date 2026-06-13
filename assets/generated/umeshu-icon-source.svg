@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" fill="#5A1838"/>
+  <path d="M0 760C178 680 247 720 396 624C548 526 657 308 1024 246V1024H0V760Z" fill="#213E38" opacity="0.62"/>
+  <path d="M-24 214C165 128 308 156 482 82C620 23 780 3 1048 46V0H0L-24 214Z" fill="#7B2346" opacity="0.78"/>
+  <path d="M210 648C132 543 152 383 254 292C359 198 524 189 641 282C760 377 800 543 737 670C686 773 581 833 474 827C364 821 272 731 210 648Z" fill="#F7B142" opacity="0.18"/>
+  <rect x="300" y="230" width="424" height="572" rx="92" fill="#F6B64B"/>
+  <rect x="340" y="278" width="344" height="476" rx="66" fill="#8C3F3D" opacity="0.25"/>
+  <path d="M330 514H694V690C694 725.346 665.346 754 630 754H394C358.654 754 330 725.346 330 690V514Z" fill="#D98730"/>
+  <path d="M360 320C360 286.863 386.863 260 420 260H604C637.137 260 664 286.863 664 320V356H360V320Z" fill="#F6D7A7"/>
+  <rect x="430" y="176" width="164" height="94" rx="28" fill="#E9C48B"/>
+  <rect x="414" y="150" width="196" height="70" rx="32" fill="#F4D4A3"/>
+  <path d="M386 338C386 313.699 405.699 294 430 294H454V728H430C405.699 728 386 708.301 386 684V338Z" fill="#FFF2D6" opacity="0.32"/>
+  <circle cx="442" cy="602" r="64" fill="#91B957"/>
+  <circle cx="568" cy="634" r="76" fill="#739941"/>
+  <circle cx="603" cy="514" r="52" fill="#B5CE65"/>
+  <path d="M592 456C573 418 594 383 631 371C640 408 626 438 592 456Z" fill="#7FA447"/>
+  <path d="M518 470C546 416 594 384 652 374" stroke="#6E8D45" stroke-width="18" stroke-linecap="round"/>
+  <rect x="462" y="448" width="58" height="58" rx="12" fill="#FFE3A7" opacity="0.9"/>
+  <rect x="544" y="438" width="62" height="62" rx="13" fill="#FFE9BA" opacity="0.88"/>
+  <rect x="438" y="512" width="50" height="50" rx="11" fill="#FFF0CA" opacity="0.8"/>
+  <path d="M344 514C428 482 588 482 680 514" stroke="#F5C76E" stroke-width="22" stroke-linecap="round" opacity="0.74"/>
+  <path d="M258 730C304 816 394 876 508 878C631 880 742 802 790 696" stroke="#F2D6A2" stroke-width="24" stroke-linecap="round" opacity="0.42"/>
+</svg>

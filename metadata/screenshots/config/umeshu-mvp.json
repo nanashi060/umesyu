@@ -1,0 +1,18 @@
+{
+  "ios": {
+    "deviceType": "IPHONE_65",
+    "dimensions": {
+      "width": 1284,
+      "height": 2778
+    },
+    "locales": [
+      "ja",
+      "en-US"
+    ],
+    "order": [
+      "01-home.png",
+      "02-batches.png",
+      "03-tips.png"
+    ]
+  }
+}
