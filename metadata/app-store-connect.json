@@ -116,17 +116,19 @@
       "assets": [
         {
           "fileName": "01-home.png",
-          "assetId": "df200d0e-92ee-4508-a103-cdbe4b995c7b"
+          "assetId": "8485e348-4447-40bf-bbab-e3a682c6b86b"
         },
         {
           "fileName": "02-batches.png",
-          "assetId": "89fba0e5-6032-4a3f-896b-71811ce8e35d"
+          "assetId": "36836073-a1de-43c0-9f44-b42b245dd1eb"
         },
         {
           "fileName": "03-tips.png",
-          "assetId": "55cd0d48-c155-4e2e-9802-19182d6c89f6"
+          "assetId": "04ecc1be-3075-49d5-a023-d555ddfbaaf7"
         }
-      ]
+      ],
+      "source": "tools/app-store-screenshots/app-store-screenshots.json",
+      "replacedInAppStoreConnectAt": "2026-06-16"
     },
     "latestAscValidate": {
       "checkedAt": "2026-06-16",
@@ -142,6 +144,9 @@
       "App Privacy answers still need Chrome/App Store Connect UI verification; MVP design indicates no data is collected off-device.",
       "EAS non-interactive iOS build incremented remote buildNumber from 2 to 3, then stopped because iOS credentials are not set up for non-interactive builds.",
       "EAS interactive iOS build attempt incremented remote buildNumber from 3 to 4, then stopped at Apple Developer login without entering credentials.",
+      "EAS interactive iOS build attempt incremented remote buildNumber from 4 to 5, then stopped at Apple Developer login without entering credentials.",
+      "Updated ja App Store screenshots were uploaded from the screenshot editor export on 2026-06-16.",
+      "After screenshot replacement, asc validate failed twice on an Apple server-side age rating declaration fetch error; previous successful validate had only the missing build attachment blocker.",
       "App availability was initialized through the App Store Connect v2 appAvailabilities API with availableInNewTerritories=true and 175 territory availability records."
     ]
   },

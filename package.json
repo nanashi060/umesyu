@@ -54,6 +54,9 @@
     "seed:check": "tsx scripts/check-seeds.ts",
     "icons:generate": "node scripts/generate-app-icons.mjs",
     "screenshots:generate": "node scripts/generate-store-screenshots.mjs",
+    "screenshots:editor:install": "npm --prefix tools/app-store-screenshots install",
+    "screenshots:editor": "npm --prefix tools/app-store-screenshots run dev",
+    "screenshots:editor:build": "npm --prefix tools/app-store-screenshots run build",
     "quality": "npm run typecheck && npm run lint && npm run test && npm run i18n:check && npm run seed:check"
   },
   "private": true

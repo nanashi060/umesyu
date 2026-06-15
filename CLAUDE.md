@@ -16,5 +16,6 @@ Handoffs to Codex must include:
 
 Record stuck points, design decisions, recurring bugs, and caveats in `docs/MAINTENANCE_NOTES.md`. After implementation, update `docs/CHANGELOG.md` and affected docs.
 
-Completion gate: `npm run quality`.
+Store screenshot handoffs must tell Codex to use `tools/app-store-screenshots` / `npm run screenshots:editor` as the editing workflow, keep `app-store-screenshots.json` as the source of truth, validate with `npm run screenshots:editor:build`, and replace `metadata/screenshots` only after reviewing exported images.
 
+Completion gate: `npm run quality`.

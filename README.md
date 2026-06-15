@@ -22,6 +22,9 @@ npm run web
 ## Useful Scripts
 
 - `npm run icons:generate` regenerates app icon PNG assets.
+- `npm run screenshots:generate` regenerates deterministic App Store screenshots under `metadata/screenshots`.
+- `npm run screenshots:editor` starts the optional interactive App Store screenshots editor.
+- `npm run screenshots:editor:build` verifies the interactive screenshots editor builds.
 - `npm run typecheck` runs TypeScript checks.
 - `npm run lint` runs Expo lint.
 - `npm run test` runs Vitest unit tests.

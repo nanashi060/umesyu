@@ -17,3 +17,6 @@ The app initializes SQLite on launch, runs forward-only migrations, seeds preset
 
 RevenueCat, AdMob, PostHog, Sentry, and Amazon Associates are represented by env-safe adapters and docs. Production SDK wiring requires a separate task after account setup.
 
+## Repository Tools
+
+`tools/app-store-screenshots` is an isolated Next.js project copied from `ParthJadhav/app-store-screenshots` for interactive store screenshot composition. It is intentionally excluded from the Expo app TypeScript and ESLint checks; use the dedicated root scripts to install, run, and build it.

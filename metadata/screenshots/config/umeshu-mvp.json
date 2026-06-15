@@ -13,6 +13,11 @@
       "01-home.png",
       "02-batches.png",
       "03-tips.png"
-    ]
+    ],
+    "source": {
+      "workflow": "tools/app-store-screenshots",
+      "projectFile": "tools/app-store-screenshots/app-store-screenshots.json",
+      "exportedAt": "2026-06-16"
+    }
   }
 }

@@ -18,3 +18,9 @@ Browser policy:
 - Use Browser plugin for localhost, Expo Web, design-system, and deterministic screenshots.
 - Use existing Chrome for logged-in dashboards, SSO, 2FA, billing, account settings, and store submission.
 
+Store screenshot policy:
+
+- For future App Store / Google Play screenshot work, use the isolated editor in `tools/app-store-screenshots` as the editing workflow.
+- Start it with `npm run screenshots:editor`; validate it with `npm run screenshots:editor:build`.
+- Keep `tools/app-store-screenshots/app-store-screenshots.json` as the editor source of truth, then review exports before replacing upload-ready files in `metadata/screenshots`.
+- Do not bypass the editor for store-marketing image updates unless the user explicitly asks for the deterministic generator only.

@@ -2,8 +2,16 @@
 
 ## 2026-06-16
 
+- Added `ParthJadhav/app-store-screenshots` as an isolated Next.js editor under `tools/app-store-screenshots`.
+- Seeded the screenshot editor with Umeshu Notes app name, icon, ja/en-US locales, and current iPhone screenshot assets.
+- Added root npm scripts for installing, running, and building the interactive screenshot editor.
+- Excluded the independent editor project from Expo app TypeScript and ESLint quality checks.
 - Initialized App Store Connect app availability for Umeshu Notes; App Store validation now only blocks on missing iOS build attachment.
 - Documented the latest EAS iOS build attempt stopping at Apple Developer login after remote build number advanced to `4`.
+- Made the screenshot editor the required workflow for future store-image updates in `AGENTS.md` and `CLAUDE.md`.
+- Re-exported ja/en-US iPhone 6.5 store screenshots from the editor and replaced the ja screenshots in App Store Connect.
+- Documented the latest EAS iOS build attempt stopping at Apple Developer login after remote build number advanced to `5`.
+- Recorded the App Review submission attempt; submission remains blocked because no processed iOS build is uploaded.
 
 ## 2026-06-14
 

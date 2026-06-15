@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 2,
+  "appName": "Umeshu Notes",
+  "themeId": "warm-editorial",
+  "connectedCanvas": true,
+  "locales": [
+    "ja",
+    "en-US"
+  ],
+  "locale": "ja",
+  "device": "iphone",
+  "orientation": "portrait",
+  "appIcon": "/app-icon.png",
+  "slidesByDevice": {
+    "iphone": [
+      {
+        "id": "umesyu-home",
+        "layout": "hero",
+        "label": {
+          "ja": "ホーム",
+          "en-US": "HOME"
+        },
+        "headline": {
+          "ja": "仕込みから熟成まで\nひと目で管理",
+          "en-US": "Track batches\nfrom prep to aging"
+        },
+        "screenshot": "/screenshots/apple/iphone/{locale}/01-home.png"
+      },
+      {
+        "id": "umesyu-batches",
+        "layout": "device-bottom",
+        "label": {
+          "ja": "仕込み記録",
+          "en-US": "BATCHES"
+        },
+        "headline": {
+          "ja": "味見と瓶詰めを\n忘れずリマインド",
+          "en-US": "Remember tasting\nand bottling dates"
+        },
+        "screenshot": "/screenshots/apple/iphone/{locale}/02-batches.png"
+      },
+      {
+        "id": "umesyu-tips",
+        "layout": "device-bottom",
+        "label": {
+          "ja": "ティップス",
+          "en-US": "TIPS"
+        },
+        "headline": {
+          "ja": "梅酒づくりの基本を\nいつでも確認",
+          "en-US": "Keep umeshu basics\nclose at hand"
+        },
+        "screenshot": "/screenshots/apple/iphone/{locale}/03-tips.png",
+        "inverted": true
+      }
+    ],
+    "android": [],
+    "ipad": [],
+    "android-7": [],
+    "android-10": [],
+    "feature-graphic": []
+  }
+}
