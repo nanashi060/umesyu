@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-06-16
+
+- Initialized App Store Connect app availability for Umeshu Notes; App Store validation now only blocks on missing iOS build attachment.
+- Documented the latest EAS iOS build attempt stopping at Apple Developer login after remote build number advanced to `4`.
+
 ## 2026-06-14
 
 - Added EAS build/submit configuration for iOS App Store Connect preparation.

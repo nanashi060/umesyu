@@ -39,5 +39,9 @@ The current Umeshu Notes App Store version is blocked by missing review contact 
 - `asc validate` decreased from 6 blocking errors to 2:
   - build attachment missing
   - app availability missing
-- Past READY_FOR_SALE apps have app availability with `availableInNewTerritories=true`, but Umeshu Notes still has no availability record.
-- Direct `POST /v2/appAvailabilities` attempts failed due App Store Connect inline `territoryAvailabilities` relationship requirements, so availability still needs UI or a corrected API payload.
+- Past READY_FOR_SALE apps have app availability with `availableInNewTerritories=true`.
+- Initialized Umeshu Notes app availability through `POST /v2/appAvailabilities` by creating all 175 territory availability records with local JSON:API IDs and territory relationships.
+- `asc validate` now reports only 1 blocking error:
+  - build attachment missing
+- App Privacy answers still need App Store Connect UI verification because the available `asc` schema does not expose App Privacy endpoints.
+- EAS interactive iOS build was started and incremented the remote build number from `3` to `4`, then stopped at Apple Developer login. The build was canceled without entering credentials.

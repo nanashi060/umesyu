@@ -1,5 +1,7 @@
 # Maintenance Notes
 
+- 2026-06-16: `POST /v2/appAvailabilities` succeeds when every `territoryAvailabilities` relationship uses local JSON:API IDs like `${territory-availability-jpn}` and the matching included resources point at real `territories` IDs; do not include separate `territories` resources.
+- 2026-06-16: Starting an interactive EAS iOS production build increments the remote build number before Apple Developer login completes; the latest canceled attempt moved the remote build number to `4`.
 - 2026-06-13: Project generated from Expo SDK 56 `default@sdk-56`. Parent home directory appears to be a Git repository, so avoid repository-wide Git operations from this project folder unless confirmed.
 - 2026-06-13: Account-backed SDK setup is documented but intentionally no-op in code until real app IDs, API keys, offerings, and review metadata are ready.
 - 2026-06-13: Expo SQLite Web failed to resolve `wa-sqlite.wasm` until `metro.config.js` added `wasm` asset support and COEP/COOP headers, matching Expo SQLite web setup docs.

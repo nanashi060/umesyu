@@ -77,7 +77,6 @@
     "notEntered": [
       "marketingUrl",
       "build",
-      "appAvailability",
       "appPrivacyAnswers"
     ],
     "appStoreVersionId": "8dd6246f-d332-421e-98b5-9ef9fa0abbd9",
@@ -94,7 +93,9 @@
       "baseTerritory": "JPN",
       "customerPrice": "0",
       "priceScheduleCreated": true,
-      "availabilityCreated": false
+      "availabilityCreated": true,
+      "availableInNewTerritories": true,
+      "territoryAvailabilityCount": 175
     },
     "reviewContact": {
       "copiedFromAppId": "6757948136",
@@ -129,11 +130,10 @@
     },
     "latestAscValidate": {
       "checkedAt": "2026-06-16",
-      "errors": 2,
+      "errors": 1,
       "warnings": 0,
       "blocking": [
-        "build attachment",
-        "app availability"
+        "build attachment"
       ]
     },
     "notes": [
@@ -141,7 +141,8 @@
       "App icon is not uploaded separately in this flow; it will be included in the next iOS build from assets/images/icon.png.",
       "App Privacy answers still need Chrome/App Store Connect UI verification; MVP design indicates no data is collected off-device.",
       "EAS non-interactive iOS build incremented remote buildNumber from 2 to 3, then stopped because iOS credentials are not set up for non-interactive builds.",
-      "App availability could not be initialized through asc pricing availability set because no availability record exists. Direct v2 appAvailabilities API attempts failed due inline territoryAvailability relationship requirements."
+      "EAS interactive iOS build attempt incremented remote buildNumber from 3 to 4, then stopped at Apple Developer login without entering credentials.",
+      "App availability was initialized through the App Store Connect v2 appAvailabilities API with availableInNewTerritories=true and 175 territory availability records."
     ]
   },
   "iconAssets": {

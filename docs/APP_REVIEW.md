@@ -40,8 +40,10 @@ Demo account is not required. The app helps users track homemade umeshu batches,
 - Age rating saved: alcohol/tobacco/drug references `FREQUENT_OR_INTENSE`; other categories none/false.
 - Screenshots uploaded: three `IPHONE_65` ja screenshots.
 - Free price schedule created with base territory `JPN`.
+- App availability initialized with `availableInNewTerritories=true`.
 - App Review contact fields copied from prior `カクテルレシピ` App Store Connect app on 2026-06-16.
-- Latest `asc validate` reports 2 blockers: build upload/attachment and app availability initialization.
+- Latest `asc validate` reports 1 blocker: build upload/attachment.
+- Latest EAS interactive build attempt incremented remote iOS build number to `4`, then stopped at Apple Developer login.
 - App Privacy answers still need App Store Connect UI/web-session verification before submission.
 - Submission is not approved until an iOS build is uploaded and App Review metadata is completed.
 
