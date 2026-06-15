@@ -12,6 +12,7 @@
 - Added support and privacy policy pages for public App Store URLs.
 - Set App Store content rights, age rating, support URL, privacy policy URL, free price schedule, and uploaded ja iPhone 6.5 screenshots.
 - Removed unused Expo template components/assets and replaced the template README.
+- Referenced prior App Store Connect apps and copied App Review contact fields from `カクテルレシピ`; latest validate now has only build and availability blockers.
 - Blocked Android `RECORD_AUDIO` permission because the MVP does not use audio capture.
 
 ## 2026-06-13

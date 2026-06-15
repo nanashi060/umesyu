@@ -76,10 +76,6 @@
     },
     "notEntered": [
       "marketingUrl",
-      "reviewContactFirstName",
-      "reviewContactLastName",
-      "reviewContactPhone",
-      "reviewContactEmail",
       "build",
       "appAvailability",
       "appPrivacyAnswers"
@@ -100,6 +96,19 @@
       "priceScheduleCreated": true,
       "availabilityCreated": false
     },
+    "reviewContact": {
+      "copiedFromAppId": "6757948136",
+      "copiedFromAppName": "カクテルレシピ",
+      "copiedFromVersionState": "READY_FOR_SALE",
+      "copiedAt": "2026-06-16",
+      "fieldsSet": [
+        "contactFirstName",
+        "contactLastName",
+        "contactEmail",
+        "contactPhone"
+      ],
+      "rawValuesStoredInRepository": false
+    },
     "screenshots": {
       "deviceType": "IPHONE_65",
       "setId": "858e4a4c-4a14-42d1-89dc-6cdd4fe28ee2",
@@ -119,13 +128,10 @@
       ]
     },
     "latestAscValidate": {
-      "errors": 6,
+      "checkedAt": "2026-06-16",
+      "errors": 2,
       "warnings": 0,
       "blocking": [
-        "review contact first name",
-        "review contact last name",
-        "review contact email",
-        "review contact phone",
         "build attachment",
         "app availability"
       ]
@@ -134,7 +140,8 @@
       "App info page showed a generic App Store Connect error alert after save, but subtitle and categories remained after reload.",
       "App icon is not uploaded separately in this flow; it will be included in the next iOS build from assets/images/icon.png.",
       "App Privacy answers still need Chrome/App Store Connect UI verification; MVP design indicates no data is collected off-device.",
-      "EAS non-interactive iOS build incremented remote buildNumber from 2 to 3, then stopped because iOS credentials are not set up for non-interactive builds."
+      "EAS non-interactive iOS build incremented remote buildNumber from 2 to 3, then stopped because iOS credentials are not set up for non-interactive builds.",
+      "App availability could not be initialized through asc pricing availability set because no availability record exists. Direct v2 appAvailabilities API attempts failed due inline territoryAvailability relationship requirements."
     ]
   },
   "iconAssets": {

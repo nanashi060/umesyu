@@ -17,3 +17,6 @@
 - 2026-06-14: `greenlight` could not be installed because local Command Line Tools do not support macOS 26; update CLT to Xcode 26.3 tools before running Greenlight.
 - 2026-06-14: `asc validate` now reports only review contact fields, build attachment, and app availability as blocking. App Privacy is not covered by this validate output and still needs manual verification.
 - 2026-06-14: EAS non-interactive iOS build incremented remote buildNumber from 2 to 3, then stopped because remote iOS credentials are not configured for non-interactive builds.
+- 2026-06-16: Past App Store Connect apps were inspected with `asc`; `カクテルレシピ` was the closest READY_FOR_SALE reference and supplied the App Review contact fields for Umeshu Notes.
+- 2026-06-16: `asc validate` now reports only 2 blockers: missing build attachment and missing app availability. App Privacy is still not covered by this validate output.
+- 2026-06-16: Direct App Store Connect API attempts to create `v2/appAvailabilities` failed because inline `territoryAvailabilities` relationship payloads require a stricter format than `asc schema` exposes. Use App Store Connect UI or revisit the API payload.
