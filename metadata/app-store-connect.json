@@ -71,6 +71,9 @@
       ],
       "appPrivacy": [
         "dataNotCollectedPublished"
+      ],
+      "build": [
+        "63956ecf-2e1d-47f1-89c5-3cefe1b439d1"
       ]
     },
     "verifiedAfterReload": {
@@ -78,8 +81,7 @@
       "appInfoPage": true
     },
     "notEntered": [
-      "marketingUrl",
-      "build"
+      "marketingUrl"
     ],
     "appStoreVersionId": "8dd6246f-d332-421e-98b5-9ef9fa0abbd9",
     "jaVersionLocalizationId": "a8f862eb-883e-4307-abfc-f2b0f2fd2046",
@@ -137,7 +139,7 @@
       "errors": 1,
       "warnings": 0,
       "blocking": [
-        "build attachment"
+        "version is now non-editable because it is WAITING_FOR_REVIEW"
       ]
     },
     "notes": [
@@ -154,7 +156,11 @@
       "Remote EAS iOS build using local credentials started as be1b078b-893a-44b7-b719-d773a68df466 for buildNumber 7, but failed because expo doctor detected SDK patch mismatches.",
       "SDK 56 patch dependencies were updated and npm run quality passed.",
       "A later remote EAS build attempt incremented buildNumber to 8 but was blocked by the Free plan iOS build quota until 2026-07-01.",
-      "A local EAS iOS build attempt incremented buildNumber to 9 but failed during credential import; the temporary certificate/profile created for that attempt were revoked/deleted and local secret files were removed."
+      "A local EAS iOS build attempt incremented buildNumber to 9 but failed during credential import; the temporary certificate/profile created for that attempt were revoked/deleted and local secret files were removed.",
+      "Local Xcode archive/export succeeded with buildNumber 10 using profile IOS_APP_STORE-20260616-APPLE-DIST and Apple Distribution certificate 92CNT5U7Q7.",
+      "Push Notifications capability was added to Bundle ID U6499MY7N5 so the Expo Notifications entitlement can be signed; the MVP still uses local notifications only and does not use push tokens.",
+      "Build 63956ecf-2e1d-47f1-89c5-3cefe1b439d1 was uploaded, processed as VALID, and submitted for App Review.",
+      "Review submission 67f83fb4-d08a-4b70-8f9d-827c83e3452c is WAITING_FOR_REVIEW; release type remains MANUAL."
     ],
     "appPrivacy": {
       "completedAt": "2026-06-16",
@@ -166,24 +172,35 @@
     },
     "easBuild": {
       "latestRemoteBuildNumber": "9",
-      "latestStartedBuildId": "be1b078b-893a-44b7-b719-d773a68df466",
-      "latestStartedBuildNumber": "7",
-      "latestStartedBuildStatus": "ERRORED",
-      "remoteQuotaBlockedBuildNumber": "8",
-      "localBuildAttemptedBuildNumber": "9",
-      "currentBlockers": [
-        "EAS Free plan iOS remote build quota exhausted until 2026-07-01",
-        "A processed iOS build is not available in App Store Connect"
-      ]
+      "localXcodeBuildNumber": "10",
+      "localArchivePath": "/tmp/UmeshuNotes.xcarchive",
+      "localIpaPath": "/tmp/UmeshuNotesExport/UmeshuNotes.ipa",
+      "appStoreConnectBuildId": "63956ecf-2e1d-47f1-89c5-3cefe1b439d1",
+      "appStoreConnectBuildProcessingState": "VALID",
+      "usesNonExemptEncryption": false,
+      "remoteQuotaBlockedBuildNumber": "8"
     },
     "signing": {
+      "bundleIdCapabilityAdded": [
+        "PUSH_NOTIFICATIONS"
+      ],
       "appStoreProvisioningProfileCreatedAt": "2026-06-16",
-      "appStoreProvisioningProfileId": "FN2GXUPR3C",
+      "appStoreProvisioningProfileId": "8Y7QJF99DQ",
+      "appStoreProvisioningProfileName": "IOS_APP_STORE-20260616-APPLE-DIST",
+      "appleDistributionCertificateId": "92CNT5U7Q7",
       "temporaryLocalCertificateCreatedAndRevoked": true,
       "temporaryLocalCertificateId": "92HF729Z6A",
       "temporaryLocalProfileDeleted": true,
       "temporaryLocalProfileId": "B56M3CKWCS",
       "sensitiveFilesStoredInRepository": false
+    },
+    "reviewSubmission": {
+      "submissionId": "67f83fb4-d08a-4b70-8f9d-827c83e3452c",
+      "submittedAt": "2026-06-16T03:14:19.329Z",
+      "state": "WAITING_FOR_REVIEW",
+      "buildId": "63956ecf-2e1d-47f1-89c5-3cefe1b439d1",
+      "appStoreVersionId": "8dd6246f-d332-421e-98b5-9ef9fa0abbd9",
+      "releaseType": "MANUAL"
     }
   },
   "iconAssets": {

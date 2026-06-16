@@ -26,6 +26,7 @@ The user asked to submit Umeshu Notes to App Store review after updating the sto
 - Handling Apple account credentials.
 - Changing billing, tax, agreements, account permissions, or release mode.
 - Keeping temporary local signing secrets after a failed build attempt.
+- Changing release mode from manual to automatic.
 
 ## Verification
 
@@ -48,4 +49,8 @@ The user asked to submit Umeshu Notes to App Store review after updating the sto
 - A later EAS remote build attempt incremented remote build number from `7` to `8`, then stopped because the Expo Free plan iOS build quota is exhausted until 2026-07-01.
 - A local EAS build attempt incremented remote build number from `8` to `9`, then failed during distribution-certificate keychain import.
 - The temporary iOS Distribution certificate `92HF729Z6A` and provisioning profile `B56M3CKWCS` created for the local credential attempt were revoked/deleted, and local secret files were removed.
-- App Review submission could not be created because a processed iOS build is required before attaching the version for review.
+- Local Xcode archive/export succeeded with build number `10` using the installed Apple Distribution keychain identity and App Store provisioning profile `IOS_APP_STORE-20260616-APPLE-DIST`.
+- Push Notifications capability was added to Bundle ID `U6499MY7N5` so the Expo Notifications entitlement can be signed. The MVP still uses local notifications only and does not use push tokens.
+- Build `63956ecf-2e1d-47f1-89c5-3cefe1b439d1` was uploaded to App Store Connect and processed as `VALID`.
+- Review submission `67f83fb4-d08a-4b70-8f9d-827c83e3452c` was created and submitted. Current state is `WAITING_FOR_REVIEW`.
+- Release type remains manual, so approval will not automatically release the app.

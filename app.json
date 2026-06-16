@@ -9,6 +9,7 @@
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/images/icon.png",
+      "buildNumber": "10",
       "bundleIdentifier": "com.yojiaoki.umesyu",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false,

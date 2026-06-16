@@ -16,6 +16,7 @@
 - Added ignored local credential paths and `ascAppId` submit configuration for iOS submission preparation.
 - Updated Expo SDK 56 patch dependencies so `expo doctor`, `expo install --check`, and `npm run quality` pass before the next iOS build.
 - Recorded EAS remote build quota and local signing build blockers; App Review submission remains blocked until a processed iOS build is uploaded.
+- Added iOS build number `10`, enabled Push Notifications capability for signing, built/exported an IPA locally with Xcode, uploaded it to App Store Connect, and submitted review submission `67f83fb4-d08a-4b70-8f9d-827c83e3452c`.
 
 ## 2026-06-14
 

@@ -13,6 +13,9 @@
 - 2026-06-16: EAS Free plan iOS remote build quota is exhausted until 2026-07-01; remote attempts moved build numbers up to `8` without producing an App Store Connect build.
 - 2026-06-16: Avoid `eas build --local` with generated local signing credentials unless output capture is controlled. The local builder printed a signing payload on credential-import failure; the temporary certificate `92HF729Z6A` was revoked, profile `B56M3CKWCS` was deleted, and local secret files were removed.
 - 2026-06-16: The latest attempted iOS build number is `9`; App Store Review remains blocked until a processed build is uploaded and selected in App Store Connect.
+- 2026-06-16: Local Xcode archive works with the keychain identity `Apple Distribution: Yoji Aoki (NM25VYJHAR)` and App Store profile `IOS_APP_STORE-20260616-APPLE-DIST`; the older `iPhone Distribution` identity fails non-interactive `codesign` with `errSecInternalComponent`.
+- 2026-06-16: Bundle ID `U6499MY7N5` needs Push Notifications capability for the Expo Notifications entitlement even though the app uses local notifications only.
+- 2026-06-16: Build `63956ecf-2e1d-47f1-89c5-3cefe1b439d1` was uploaded from local Xcode build number `10`, processed as `VALID`, and submitted. Review submission `67f83fb4-d08a-4b70-8f9d-827c83e3452c` is `WAITING_FOR_REVIEW`.
 - 2026-06-13: Project generated from Expo SDK 56 `default@sdk-56`. Parent home directory appears to be a Git repository, so avoid repository-wide Git operations from this project folder unless confirmed.
 - 2026-06-13: Account-backed SDK setup is documented but intentionally no-op in code until real app IDs, API keys, offerings, and review metadata are ready.
 - 2026-06-13: Expo SQLite Web failed to resolve `wa-sqlite.wasm` until `metro.config.js` added `wasm` asset support and COEP/COOP headers, matching Expo SQLite web setup docs.

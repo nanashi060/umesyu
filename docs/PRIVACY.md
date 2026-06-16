@@ -12,6 +12,7 @@ MVP stores data locally on device:
 - Purchase/analytics/review state cache
 
 No server account or push token is used.
+iOS Push Notifications capability is enabled only so the Expo Notifications entitlement can be signed; the MVP schedules local notifications and does not register for or transmit push tokens.
 
 ## Store Metadata Status
 

@@ -48,7 +48,10 @@ Demo account is not required. The app helps users track homemade umeshu batches,
 - Latest EAS remote build attempt incremented remote iOS build number to `8`, then stopped because the Expo Free plan iOS build quota is exhausted until 2026-07-01.
 - Latest EAS local build attempt incremented remote iOS build number to `9`, then failed during distribution-certificate keychain import.
 - A temporary iOS Distribution certificate/profile created for local signing was revoked/deleted after the local build tool exposed a signing payload in error output.
-- Submission is not approved until an iOS build is uploaded and App Review metadata is completed.
+- Push Notifications capability is enabled on the Bundle ID for the Expo Notifications entitlement. The MVP uses local notifications only and does not use push tokens or a notification server.
+- Local Xcode archive/export produced build `10`, uploaded build `63956ecf-2e1d-47f1-89c5-3cefe1b439d1`, and App Store Connect processed it as `VALID`.
+- Review submission `67f83fb4-d08a-4b70-8f9d-827c83e3452c` is `WAITING_FOR_REVIEW` as of 2026-06-16.
+- Release type is manual, so approval will require a separate manual release action.
 
 ## Recheck Triggers
 
