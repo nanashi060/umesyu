@@ -44,7 +44,7 @@
   },
   "ageRatingNotes": "The app is about alcoholic beverage record keeping. Complete App Store Connect age rating truthfully for alcohol references and do not position the app for children.",
   "entryStatus": {
-    "lastCheckedAt": "2026-06-14",
+    "lastCheckedAt": "2026-06-16",
     "appStoreConnectUrl": "https://appstoreconnect.apple.com/apps/6779993369/distribution/ios/version/inflight",
     "enteredInAppStoreConnect": {
       "jaVersionPage": [
@@ -68,6 +68,9 @@
       ],
       "pricing": [
         "freePriceSchedule"
+      ],
+      "appPrivacy": [
+        "dataNotCollectedPublished"
       ]
     },
     "verifiedAfterReload": {
@@ -76,8 +79,7 @@
     },
     "notEntered": [
       "marketingUrl",
-      "build",
-      "appPrivacyAnswers"
+      "build"
     ],
     "appStoreVersionId": "8dd6246f-d332-421e-98b5-9ef9fa0abbd9",
     "jaVersionLocalizationId": "a8f862eb-883e-4307-abfc-f2b0f2fd2046",
@@ -141,14 +143,48 @@
     "notes": [
       "App info page showed a generic App Store Connect error alert after save, but subtitle and categories remained after reload.",
       "App icon is not uploaded separately in this flow; it will be included in the next iOS build from assets/images/icon.png.",
-      "App Privacy answers still need Chrome/App Store Connect UI verification; MVP design indicates no data is collected off-device.",
       "EAS non-interactive iOS build incremented remote buildNumber from 2 to 3, then stopped because iOS credentials are not set up for non-interactive builds.",
       "EAS interactive iOS build attempt incremented remote buildNumber from 3 to 4, then stopped at Apple Developer login without entering credentials.",
       "EAS interactive iOS build attempt incremented remote buildNumber from 4 to 5, then stopped at Apple Developer login without entering credentials.",
       "Updated ja App Store screenshots were uploaded from the screenshot editor export on 2026-06-16.",
       "After screenshot replacement, asc validate failed twice on an Apple server-side age rating declaration fetch error; previous successful validate had only the missing build attachment blocker.",
-      "App availability was initialized through the App Store Connect v2 appAvailabilities API with availableInNewTerritories=true and 175 territory availability records."
-    ]
+      "App availability was initialized through the App Store Connect v2 appAvailabilities API with availableInNewTerritories=true and 175 territory availability records.",
+      "App Privacy was completed and published in the App Store Connect UI as Data Not Collected on 2026-06-16.",
+      "Chrome submission attempt returned: cannot add for review; select a build.",
+      "Remote EAS iOS build using local credentials started as be1b078b-893a-44b7-b719-d773a68df466 for buildNumber 7, but failed because expo doctor detected SDK patch mismatches.",
+      "SDK 56 patch dependencies were updated and npm run quality passed.",
+      "A later remote EAS build attempt incremented buildNumber to 8 but was blocked by the Free plan iOS build quota until 2026-07-01.",
+      "A local EAS iOS build attempt incremented buildNumber to 9 but failed during credential import; the temporary certificate/profile created for that attempt were revoked/deleted and local secret files were removed."
+    ],
+    "appPrivacy": {
+      "completedAt": "2026-06-16",
+      "completedWith": "Chrome App Store Connect UI",
+      "published": true,
+      "statusText": "Data Not Collected",
+      "dataCollected": false,
+      "rationale": "MVP data remains on device; no account, server sync, analytics, ads, or error reporting is active."
+    },
+    "easBuild": {
+      "latestRemoteBuildNumber": "9",
+      "latestStartedBuildId": "be1b078b-893a-44b7-b719-d773a68df466",
+      "latestStartedBuildNumber": "7",
+      "latestStartedBuildStatus": "ERRORED",
+      "remoteQuotaBlockedBuildNumber": "8",
+      "localBuildAttemptedBuildNumber": "9",
+      "currentBlockers": [
+        "EAS Free plan iOS remote build quota exhausted until 2026-07-01",
+        "A processed iOS build is not available in App Store Connect"
+      ]
+    },
+    "signing": {
+      "appStoreProvisioningProfileCreatedAt": "2026-06-16",
+      "appStoreProvisioningProfileId": "FN2GXUPR3C",
+      "temporaryLocalCertificateCreatedAndRevoked": true,
+      "temporaryLocalCertificateId": "92HF729Z6A",
+      "temporaryLocalProfileDeleted": true,
+      "temporaryLocalProfileId": "B56M3CKWCS",
+      "sensitiveFilesStoredInRepository": false
+    }
   },
   "iconAssets": {
     "source": "assets/generated/umeshu-icon-source.svg",

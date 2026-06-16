@@ -12,6 +12,10 @@
 - Re-exported ja/en-US iPhone 6.5 store screenshots from the editor and replaced the ja screenshots in App Store Connect.
 - Documented the latest EAS iOS build attempt stopping at Apple Developer login after remote build number advanced to `5`.
 - Recorded the App Review submission attempt; submission remains blocked because no processed iOS build is uploaded.
+- Completed and published App Store Connect App Privacy as "Data Not Collected".
+- Added ignored local credential paths and `ascAppId` submit configuration for iOS submission preparation.
+- Updated Expo SDK 56 patch dependencies so `expo doctor`, `expo install --check`, and `npm run quality` pass before the next iOS build.
+- Recorded EAS remote build quota and local signing build blockers; App Review submission remains blocked until a processed iOS build is uploaded.
 
 ## 2026-06-14
 

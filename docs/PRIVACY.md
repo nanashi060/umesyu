@@ -18,7 +18,7 @@ No server account or push token is used.
 - Privacy policy URL: `https://github.com/nanashi060/umesyu/blob/main/PRIVACY_POLICY.md`
 - Support URL: `https://github.com/nanashi060/umesyu/issues`
 - App Store description states that data is stored on device and is not synced to an external server.
-- App Privacy answers still need to be completed in App Store Connect. MVP behavior supports "data not collected" because data is not transmitted off-device, but this must be verified in the App Store Connect privacy UI before submission.
+- App Privacy was completed and published in App Store Connect on 2026-06-16 as "Data Not Collected".
 - If ads, analytics, purchases, Sentry, or affiliate behavior is enabled later, update this document and App Store Connect privacy answers before submission.
 
 ## SDK Notes

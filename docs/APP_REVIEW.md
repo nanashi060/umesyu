@@ -43,9 +43,11 @@ Demo account is not required. The app helps users track homemade umeshu batches,
 - Free price schedule created with base territory `JPN`.
 - App availability initialized with `availableInNewTerritories=true`.
 - App Review contact fields copied from prior `カクテルレシピ` App Store Connect app on 2026-06-16.
+- App Privacy published as "Data Not Collected" in App Store Connect on 2026-06-16.
 - Latest `asc validate` reports 1 blocker: build upload/attachment.
-- Latest EAS interactive build attempt incremented remote iOS build number to `5`, then stopped at Apple Developer login.
-- App Privacy answers still need App Store Connect UI/web-session verification before submission.
+- Latest EAS remote build attempt incremented remote iOS build number to `8`, then stopped because the Expo Free plan iOS build quota is exhausted until 2026-07-01.
+- Latest EAS local build attempt incremented remote iOS build number to `9`, then failed during distribution-certificate keychain import.
+- A temporary iOS Distribution certificate/profile created for local signing was revoked/deleted after the local build tool exposed a signing payload in error output.
 - Submission is not approved until an iOS build is uploaded and App Review metadata is completed.
 
 ## Recheck Triggers

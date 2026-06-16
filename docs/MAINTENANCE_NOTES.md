@@ -8,6 +8,11 @@
 - 2026-06-16: The screenshot editor's `device-top` layout can crop important text on tall iPhone exports; use `device-bottom` or inspect the export before replacing `metadata/screenshots`.
 - 2026-06-16: A second interactive EAS iOS production build attempt moved the remote build number to `5` before stopping at Apple Developer login.
 - 2026-06-16: After screenshot replacement, `asc validate` intermittently failed while fetching the age rating declaration with an Apple server-side error; retry before final submission, but the app still has no uploaded build.
+- 2026-06-16: App Privacy was completed in App Store Connect as "Data Not Collected"; revisit before enabling ads, analytics, purchases, Sentry, or any off-device data transfer.
+- 2026-06-16: EAS remote iOS build `be1b078b-893a-44b7-b719-d773a68df466` failed because `expo doctor` rejected SDK 56 patch mismatches; `npx expo install --check` should be clean before starting another build.
+- 2026-06-16: EAS Free plan iOS remote build quota is exhausted until 2026-07-01; remote attempts moved build numbers up to `8` without producing an App Store Connect build.
+- 2026-06-16: Avoid `eas build --local` with generated local signing credentials unless output capture is controlled. The local builder printed a signing payload on credential-import failure; the temporary certificate `92HF729Z6A` was revoked, profile `B56M3CKWCS` was deleted, and local secret files were removed.
+- 2026-06-16: The latest attempted iOS build number is `9`; App Store Review remains blocked until a processed build is uploaded and selected in App Store Connect.
 - 2026-06-13: Project generated from Expo SDK 56 `default@sdk-56`. Parent home directory appears to be a Git repository, so avoid repository-wide Git operations from this project folder unless confirmed.
 - 2026-06-13: Account-backed SDK setup is documented but intentionally no-op in code until real app IDs, API keys, offerings, and review metadata are ready.
 - 2026-06-13: Expo SQLite Web failed to resolve `wa-sqlite.wasm` until `metro.config.js` added `wasm` asset support and COEP/COOP headers, matching Expo SQLite web setup docs.
